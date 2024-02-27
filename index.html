@@ -2,11 +2,27 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" media="screen" href="css/meyers_and_normalize-form_reset.css">
   <link rel="stylesheet" media="screen" href="css/style.css">
-  <title>Lab 1</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/site.js"></script>
+  <title>Project 1</title>
 </head>
 <body>
-  <p>ITMD 361 Lab1</p>
-  <p>Verica Karanakova</p>
+  <main id="content">
+    <form method="get" action="#null">
+      <h1>Join Our Newsletter!</h1>
+      <p>Sign up to recieve the latest news</p>
+      <ol>
+        <li id="input-email">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" pattern="^.+@.+$">
+        </li>
+        <li id="input-submit">
+          <input type="submit" name="submit" id="submit" value="Subscribe">
+        </li>
+      </ol>
+    </form>
+  </main>
 </body>
 </html>
