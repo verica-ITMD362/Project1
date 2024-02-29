@@ -4,6 +4,7 @@ body {
     justify-content: center;
     margin: 7%;
     background-image: url(../images/night_pic.jpg);
+    background-color: rgb(44, 0, 115);
 }
   
 #content {
@@ -93,7 +94,7 @@ p {
     padding: 2% 7% 2% 7%;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1000px) {
     h1 {
         font-size: 3em;
     }
@@ -109,6 +110,26 @@ p {
     #input-terms input {
         margin-right: 10px;
         font-size: 130%;
+        line-height: normal;
+    }
+}
+
+@media only screen and (min-width: 2000px) {
+    h1 {
+        font-size: 4.5em;
+    }
+  
+    p, #input-email input, #input-phone input, #input-terms {
+        font-size: 3em;
+    }
+
+    #input-email label, #input-phone label, #submit {
+        font-size: 3.25em;
+    }
+
+    #input-terms input {
+        margin-right: 10px;
+        font-size: 140%;
         line-height: normal;
     }
 }
