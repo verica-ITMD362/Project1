@@ -1,35 +1,25 @@
 // jQuery 3.x-style ready event and locally scoped $
 jQuery(function($) {
-    $('html').removeClass('nojs');
-    $('html').addClass('hasjs');
-
-    // $("#terms").on("click", function () {
-    //   $("#terms").prop("checked", true);
-    //   $("#terms").css("background-color", "rgb(255, 13, 235)");
-    // });
+  $('html').removeClass('nojs');
+  $('html').addClass('hasjs');
 
   $(document).ready(function(){
-    $('#terms').click(function () {
-        //check if checkbox is checked
-        if ($(this).is(':checked')) {
-              
-            $('#submit').removeAttr('disabled'); //enable input
-              
-        } else {
-            $('#submit').attr('disabled', true); //disable input
-            alert("Must agree to terms and conditions to submit");
-        }
+    $("#submit").click(function(){
+      $(this).prop('disabled', true);
+    });
+    });
+  
+
+  $(document).ready(function(){
+    $("#submit").click(function () {
+      if ($(this).is(':checked')) {
+        $("#submit").attr('disabled', false);
+      } else {
+        $("#submit").attr('disabled', true);
+        alert("Must agree to terms and conditions to submit");
+      }
     });
     });
   });
 
-// function validate() {
-//   if (document.getElementById('terms').checked) {
-//       $('#submit').attr('disabled', false);
-//   } else {
-//     alert("You didn't check it! Let me check it for you.");
-//     $('#submit').attr('disabled', true);
-//   }
-// }
-
-// validate();
+  
