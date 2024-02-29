@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(179, 79, 255);
+    font-family: "Roboto Mono", monospace, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 7%;
+}
+  
+#content {
+    display: flex;
+    width: 80%;
+    height: auto;
+    box-shadow: 10px 10px 10px 10px rgba(39, 39, 39, 0.253);
+    border-radius: 10px;
+}
+  
+form {
+    width: 100%;
+    margin-bottom: 5%;
+    padding: 2%;
+}
+  
+h1 {
+    color: #1e1e1e;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    line-height: normal;
+    margin-bottom: 5%;
+}
+  
+p {
+    color: #1e1e1e;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#input-email input, #input-phone input {
+    background-color: rgb(207, 148, 251);
+    border-color: rgb(207, 148, 251);
+    color: #1e1e1e;
+    font-weight: normal;
+}
+
+#input-email label, #input-phone label {
+    font-size: 1.2em;
+}
+
+#email, #phone {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: rgb(207, 148, 251);
+    border-radius: 10px;
+}
+  
+#input-terms {
+    display: flex;
+    margin-bottom: 10px;
+}
+  
+#input-terms input {
+    margin-right: 10px;
+    margin-top: 5px;
+}
+    
+#submit {
+    width: 100%;
+    color: beige;
+    background-color: rgb(106, 39, 157);
+    box-shadow: 4px 4px 4px 4px rgba(39, 39, 39, 0.253);
+    border-radius: 10px;
+    border-color: rgb(106, 39, 157);
+    font-family: "Roboto Mono", monospace, sans-serif;
+    text-align: center;
+}
