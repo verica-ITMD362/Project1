@@ -23,7 +23,7 @@ form {
 h1 {
     color: rgb(255, 13, 235);
     text-align: center;
-    font-size: 4em;
+    font-size: 5em;
     font-weight: bold;
     line-height: normal;
     margin-bottom: 5%;
@@ -42,6 +42,7 @@ p {
     color: #1e1e1e;
     font-weight: normal;
     font-size: 2em;
+    margin-bottom: 5%;
 }
 
 #input-email label, #input-phone label {
@@ -59,12 +60,16 @@ p {
   
 #input-terms {
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 5%;
     font-size: 2.5em;
 }
   
 #input-terms input {
     margin-right: 10px;
+    font-size: 150%;
+    line-height: normal;
+    width: 1em;
+    height: 1em;
 }
     
 #submit {
@@ -72,11 +77,13 @@ p {
     color: beige;
     background-color: rgb(255, 13, 235);
     box-shadow: 4px 4px 4px 4px rgba(39, 39, 39, 0.253);
-    border-radius: 10px;
+    border-radius: 50px 50px 10px 10px;
     border-color: rgb(255, 13, 235);
     font-family: "Roboto Mono", monospace, sans-serif;
     text-align: center;
     font-size: 2.5em;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 @media only screen and (min-width: 1000px) {
