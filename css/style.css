@@ -10,7 +10,7 @@ body {
     width: 90%;
     height: auto;
     box-shadow: 10px 10px 10px 10px rgba(39, 39, 39, 0.253);
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: rgb(150, 239, 255);
 }
   
@@ -23,7 +23,7 @@ form {
 h1 {
     color: rgb(255, 13, 235);
     text-align: center;
-    font-size: 5em;
+    font-size: 6em;
     font-weight: bold;
     line-height: normal;
     margin-bottom: 5%;
@@ -33,7 +33,7 @@ p {
     color: #1e1e1e;
     text-align: center;
     margin-bottom: 5%;
-    font-size: 2.5em;
+    font-size: 3em;
 }
 
 #input-email input, #input-phone input {
@@ -41,12 +41,12 @@ p {
     border-color: rgb(198, 246, 255);
     color: #1e1e1e;
     font-weight: normal;
-    font-size: 2em;
+    font-size: 2.75em;
     margin-bottom: 5%;
 }
 
 #input-email label, #input-phone label {
-    font-size: 2.5em;
+    font-size: 3.2em;
 }
 
 #email, #phone {
@@ -61,12 +61,12 @@ p {
 #input-terms {
     display: flex;
     margin-bottom: 5%;
-    font-size: 2.5em;
+    font-size: 3em;
 }
   
 #input-terms input {
     margin-right: 10px;
-    font-size: 150%;
+    font-size: 120%;
     line-height: normal;
     width: 1em;
     height: 1em;
@@ -81,18 +81,28 @@ p {
     border-color: rgb(255, 13, 235);
     font-family: "Roboto Mono", monospace, sans-serif;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 3.2em;
+    font-weight: bold;
     padding-top: 2%;
     padding-bottom: 2%;
 }
 
 @media only screen and (min-width: 1000px) {
     h1 {
-        font-size: 2em;
+        font-size: 3em;
     }
   
-    p, #input-email input, #input-phone input, #input-email label, #input-phone label, #input-terms, #submit{
-        font-size: 1em;
+    p, #input-email input, #input-phone input, #input-terms {
+        font-size: 1.5em;
     }
-    
+
+    #input-email label, #input-phone label, #submit {
+        font-size: 1.75em;
+    }
+
+    #input-terms input {
+        margin-right: 10px;
+        font-size: 130%;
+        line-height: normal;
+    }
 }
