@@ -2,29 +2,34 @@
 jQuery(function($) {
     $('html').removeClass('nojs');
     $('html').addClass('hasjs');
+
+    // $("#terms").on("click", function () {
+    //   $("#terms").prop("checked", true);
+    //   $("#terms").css("background-color", "rgb(255, 13, 235)");
+    // });
+
+  $(document).ready(function(){
+    $('#terms').click(function () {
+        //check if checkbox is checked
+        if ($(this).is(':checked')) {
+              
+            $('#submit').removeAttr('disabled'); //enable input
+              
+        } else {
+            $('#submit').attr('disabled', true); //disable input
+            alert("Must agree to terms and conditions to submit");
+        }
+    });
+    });
   });
 
-// $(document).ready(function(){
-//   $('#input-terms').click(function () {
-//       //check if checkbox is checked
-//       if ($(this).is(':checked')) {
-            
-//           $('#submit').removeAttr('disabled'); //enable input
-            
-//       } else {
-//           $('#submit').attr('disabled', true); //disable input
-//           alert("Must agree to terms and conditions to submit");
-//       }
-//   });
-//   });
+// function validate() {
+//   if (document.getElementById('terms').checked) {
+//       $('#submit').attr('disabled', false);
+//   } else {
+//     alert("You didn't check it! Let me check it for you.");
+//     $('#submit').attr('disabled', true);
+//   }
+// }
 
-function validate() {
-  if (document.getElementById('terms').checked) {
-      $('#submit').attr('disabled', false);
-  } else {
-    alert("You didn't check it! Let me check it for you.");
-    $('#submit').attr('disabled', true);
-  }
-}
-
-validate();
+// validate();
