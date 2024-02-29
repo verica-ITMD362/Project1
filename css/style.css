@@ -1,8 +1,9 @@
 body {
-    font-family: "Roboto Mono", monospace, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
     justify-content: center;
     margin: 7%;
+    background-image: url(../images/night_pic.jpg);
 }
   
 #content {
