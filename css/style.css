@@ -23,7 +23,7 @@ form {
 h1 {
     color: rgb(255, 13, 235);
     text-align: center;
-    font-size: 2em;
+    font-size: 4em;
     font-weight: bold;
     line-height: normal;
     margin-bottom: 5%;
@@ -33,6 +33,7 @@ p {
     color: #1e1e1e;
     text-align: center;
     margin-bottom: 5%;
+    font-size: 2.5em;
 }
 
 #input-email input, #input-phone input {
@@ -40,10 +41,11 @@ p {
     border-color: rgb(198, 246, 255);
     color: #1e1e1e;
     font-weight: normal;
+    font-size: 2em;
 }
 
 #input-email label, #input-phone label {
-    font-size: 1.2em;
+    font-size: 2.5em;
 }
 
 #email, #phone {
@@ -58,6 +60,7 @@ p {
 #input-terms {
     display: flex;
     margin-bottom: 10px;
+    font-size: 2.5em;
 }
   
 #input-terms input {
@@ -73,4 +76,5 @@ p {
     border-color: rgb(255, 13, 235);
     font-family: "Roboto Mono", monospace, sans-serif;
     text-align: center;
+    font-size: 2.5em;
 }
