@@ -17,7 +17,7 @@ body {
 }
   
 form {
-    width: 99%;
+    width: 100%;
     margin-bottom: 5%;
     padding: 2%;
 }
@@ -36,6 +36,10 @@ p {
     text-align: center;
     margin-bottom: 5%;
     font-size: 2em;
+}
+
+ol {
+    margin-left: 5%;
 }
 
 #input-email input, #input-phone input {
